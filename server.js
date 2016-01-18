@@ -11,6 +11,7 @@ process.listening = false;
 var app = express();
 var httpServers = https.createServer(credentials,app);
 httpServers.listen(2001);
+console.log('running')
 //cmd.exec(' espeak -ven+m3 -k5 "I am here, Master"')
 
 
